@@ -1,0 +1,13 @@
+body {
+    background-color: snow;
+    text-align: center;
+}
+
+footer {
+    border: 1px double skyblue;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    padding: 50px;
+    margin: 50px;
+}
