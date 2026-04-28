@@ -2,11 +2,70 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8" />
-        <link href="styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif" />
+        <link rel="stylesheet" href="styles.css" />
         <title> Soluciones Euclides </title>
     </head>
     <body>
-        <h1> ¡ Bienvenido a Soluciones Euclides ! </h1>
+        <header>
+            <nav>
+                <div class="nav-logo" aria-label="Área de logo.">
+                    <a href="/"> <img src="img/logo-euclides-color.png" alt="Logotipo 'Euclides' en color azul que redirige a la página principal del sitio." /> </a>
+                </div>
+                <div class="nav-menu" aria-label="Área de menú.">
+                    <span> <a href="#home"> Inicio </a> </span>
+                    <span> <a href="#about"> Acerca de SE </a> </span>
+                    <span> <a href="#apps"> Apps </a> </span>
+                    <span> <a href="#contact"> Contacto </a> </span>
+                </div>
+                <div class="nav-search" aria-label="Área de buscador.">
+                    <search>
+                        <form action="/search">
+                            <input type="search" name="content" maxlength="50" placeholder="artículos, secciones, etc.." required />
+                            <button type="submit"> Buscar </button>
+                        </form>
+                    </search>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="home" aria-label="Sección Inicio.">
+                <h1> ¡ Bienvenido ! </h1>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </section>
+            <section id="about" aria-label="Sección Acerca De.">
+                <h1> Sobre SE </h1>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </section>
+            <section id="apps" aria-label="Sección Aplicaciones.">
+                <h1> Web-Apps Desarrolladas </h1>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </section>
+            <section id="contact" aria-label="Sección Contacto.">
+                <h1> Conectá </h1>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </section>
+        </main>
         <footer> Euclides by @EnzoNB | abril 2026 </footer>
     </body>
 </html>
