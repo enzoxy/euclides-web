@@ -1,21 +1,27 @@
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 120px;
 }
 
 body {
     background-color: snow;
     text-align: center;
     margin: 2rem;
+    margin-top: 0rem;
 }
 
 header {
-    border-top: 3px double skyblue;
-    border-bottom: 3px double skyblue;
     margin: inherit;
+    position: sticky;
+    top: 0rem;
+    background-color: inherit;
+    border-top: 2rem solid snow;
     font-family: 'IBM Plex Serif', 'serif';
 }
 
 header > nav {
+    border-top: 3px double skyblue;
+    border-bottom: 3px double skyblue;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-auto-rows: minmax(50px, auto);
