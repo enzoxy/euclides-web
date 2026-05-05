@@ -1,12 +1,12 @@
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 120px;
+    scroll-padding-top: 8rem;
 }
 
 body {
     background-color: snow;
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
     margin-top: 0rem;
 }
 
@@ -80,7 +80,7 @@ section > p {
 
 :popover-open {
     margin: 0;
-    margin-top: 0.8rem;
+    margin-top: 1rem;
     inset: auto;
     position-area: bottom;
     display: flex;
@@ -110,4 +110,5 @@ footer {
     .nav-menu { display: none; }
     .nav-search { display: none; }
     .nav-side-menu { display: block; align-content: center; grid-column: 3; }
+    html { font-size: 14px; }
 }
